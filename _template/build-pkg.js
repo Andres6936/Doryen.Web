@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const type = process.argv[2];
 
-const pkg = require('../package_template.json');
+const pkg = require('../package.json');
 for (const key in pkg['merge-configs'][type]) {
     Object.assign(pkg[key], pkg['merge-configs'][type][key]);
 }
