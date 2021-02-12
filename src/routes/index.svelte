@@ -3,20 +3,20 @@
 </svelte:head>
 
 <ul class="list-group">
-    <li class="list-group-item">Colors</li>
-    <li class="list-group-item">Console</li>
-    <li class="list-group-item">System layer</li>
-    <li class="list-group-item">Line drawing toolkit</li>
-    <li class="list-group-item">Image toolkit</li>
-    <li class="list-group-item">All purpose container</li>
-    <li class="list-group-item">Pseudorandom number generator</li>
-    <li class="list-group-item">Mouse support</li>
-    <li class="list-group-item">Noise generator</li>
-    <li class="list-group-item">File parser</li>
-    <li class="list-group-item">Compression toolkit</li>
-    <li class="list-group-item">BSP toolkit</li>
-    <li class="list-group-item">Field of view</li>
-    <li class="list-group-item">Heightmap toolkit</li>
-    <li class="list-group-item">Name generator</li>
-    <li class="list-group-item">Pathfinding</li>
+    <li class="list-group-item list-group-item-action">Colors</li>
+    <li class="list-group-item list-group-item-action">Console</li>
+    <li class="list-group-item list-group-item-action">System layer</li>
+    <li class="list-group-item list-group-item-action">Line drawing toolkit</li>
+    <li class="list-group-item list-group-item-action">Image toolkit</li>
+    <li class="list-group-item list-group-item-action">All purpose container</li>
+    <li class="list-group-item list-group-item-action">Pseudorandom number generator</li>
+    <li class="list-group-item list-group-item-action">Mouse support</li>
+    <li class="list-group-item list-group-item-action">Noise generator</li>
+    <li class="list-group-item list-group-item-action">File parser</li>
+    <li class="list-group-item list-group-item-action">Compression toolkit</li>
+    <li class="list-group-item list-group-item-action">BSP toolkit</li>
+    <li class="list-group-item list-group-item-action">Field of view</li>
+    <li class="list-group-item list-group-item-action">Heightmap toolkit</li>
+    <li class="list-group-item list-group-item-action">Name generator</li>
+    <li class="list-group-item list-group-item-action">Pathfinding</li>
 </ul>
