@@ -131,7 +131,9 @@
     <div class="col-12">
         <h3>Pathfinding</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a path"/>
+            <ActionableItem label="Computing the path"/>
+            <ActionableItem label="Reading path information"/>
         </ListGroup>
     </div>
 </div>
