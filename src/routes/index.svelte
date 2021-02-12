@@ -92,7 +92,11 @@
     <div class="col-12">
         <h3>BSP toolkit</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a BSP tree"/>
+            <ActionableItem label="Splitting the tree"/>
+            <ActionableItem label="Resizing the tree"/>
+            <ActionableItem label="Reading information from tree"/>
+            <ActionableItem label="Traversing the tree"/>
         </ListGroup>
     </div>
 
