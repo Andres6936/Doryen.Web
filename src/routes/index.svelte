@@ -11,6 +11,15 @@
     <ItemTitle title="Core"/>
     <ActionableItem label="Colors"/>
     <ActionableItem label="Console" badge="5"/>
+
+    <ListGroup>
+        <ActionableItem label="Initializing the console"/>
+        <ActionableItem label="Drawing in the root console"/>
+        <ActionableItem label="Flushing the root console"/>
+        <ActionableItem label="Handle keyboard input"/>
+        <ActionableItem label="Using offscreen consoles"/>
+    </ListGroup>
+
     <ActionableItem label="System layer" badge="5"/>
 
     <ListGroup>
