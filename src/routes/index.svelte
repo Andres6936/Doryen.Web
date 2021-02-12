@@ -1,10 +1,14 @@
+<script>
+    import ListGroup from "../components/lists/ListGroup.svelte";
+    import ActionableItem from "../components/lists/ActionableItem.svelte";
+</script>
 <svelte:head>
     <title>Doryen Documentation</title>
 </svelte:head>
 
-<ul class="list-group">
+<ListGroup>
     <li class="list-group-item list-group-item-dark">Core</li>
-    <li class="list-group-item list-group-item-action">Colors</li>
+    <ActionableItem label="Colors"/>
     <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Console
         <span class="badge bg-primary rounded-pill">5</span>
     </li>
@@ -26,4 +30,4 @@
     <li class="list-group-item list-group-item-action">Heightmap toolkit</li>
     <li class="list-group-item list-group-item-action">Name generator</li>
     <li class="list-group-item list-group-item-action">Pathfinding</li>
-</ul>
+</ListGroup>>
