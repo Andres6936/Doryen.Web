@@ -122,7 +122,9 @@
     <div class="col-12">
         <h3>Name generator</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a generator"/>
+            <ActionableItem label="Generating a name"/>
+            <ActionableItem label="Syllable set configuration"/>
         </ListGroup>
     </div>
 
