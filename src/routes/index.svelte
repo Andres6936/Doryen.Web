@@ -2,6 +2,7 @@
     import ListGroup from "../components/lists/ListGroup.svelte";
     import ActionableItem from "../components/lists/ActionableItem.svelte";
     import ItemTitle from "../components/lists/ItemTitle.svelte";
+    import ListGroupCollapsable from "../components/lists/ListGroupCollapsable.svelte";
 </script>
 <svelte:head>
     <title>Doryen Documentation</title>
@@ -12,23 +13,23 @@
     <ActionableItem label="Colors"/>
     <ActionableItem label="Console" badge="5"/>
 
-    <ListGroup>
+    <ListGroupCollapsable id="dr-sublist-console">
         <ActionableItem label="Initializing the console"/>
         <ActionableItem label="Drawing in the root console"/>
         <ActionableItem label="Flushing the root console"/>
         <ActionableItem label="Handle keyboard input"/>
         <ActionableItem label="Using offscreen consoles"/>
-    </ListGroup>
+    </ListGroupCollapsable>
 
     <ActionableItem label="System layer" badge="5"/>
 
-    <ListGroup>
+    <ListGroupCollapsable id="dr-sublist-system-layer">
         <ActionableItem label="High precision time functions"/>
         <ActionableItem label="Easy screenshots"/>
         <ActionableItem label="Filesystem utilities"/>
         <ActionableItem label="Miscellaneous utilities"/>
         <ActionableItem label="Clipboard integration"/>
-    </ListGroup>
+    </ListGroupCollapsable>
 
     <ItemTitle title="Base toolkit"/>
     <ActionableItem label="Line drawing toolkit"/>
