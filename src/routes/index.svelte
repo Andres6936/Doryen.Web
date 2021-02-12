@@ -8,7 +8,7 @@
 
 <div class="row">
     <div class="col-12">
-        <h3>Console</h3>
+        <h5 class="fw-bold border-bottom pb-3">Console</h5>
         <ListGroup>
             <ActionableItem label="Initializing the console"/>
             <ActionableItem label="Drawing in the root console"/>
