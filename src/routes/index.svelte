@@ -9,25 +9,21 @@
 <ListGroup>
     <li class="list-group-item list-group-item-dark">Core</li>
     <ActionableItem label="Colors"/>
-    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Console
-        <span class="badge bg-primary rounded-pill">5</span>
-    </li>
-    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">System layer
-        <span class="badge bg-primary rounded-pill">6</span>
-    </li>
+    <ActionableItem label="Console" badge="5"/>
+    <ActionableItem label="System layer" badge="6"/>
     <li class="list-group-item list-group-item-dark">Base toolkit</li>
-    <li class="list-group-item list-group-item-action">Line drawing toolkit</li>
-    <li class="list-group-item list-group-item-action">Image toolkit</li>
-    <li class="list-group-item list-group-item-action">All purpose container</li>
-    <li class="list-group-item list-group-item-action">Pseudorandom number generator</li>
-    <li class="list-group-item list-group-item-action">Mouse support</li>
-    <li class="list-group-item list-group-item-action">Noise generator</li>
-    <li class="list-group-item list-group-item-action">File parser</li>
-    <li class="list-group-item list-group-item-action">Compression toolkit</li>
+    <ActionableItem label="Line drawing toolkit"/>
+    <ActionableItem label="Image toolkit"/>
+    <ActionableItem label="All purpose container"/>
+    <ActionableItem label="Pseudorandom number generator"/>
+    <ActionableItem label="Mouse support"/>
+    <ActionableItem label="Noise generator"/>
+    <ActionableItem label="File parser"/>
+    <ActionableItem label="Compression toolkit"/>
     <li class="list-group-item list-group-item-dark">Roguelike toolkit</li>
-    <li class="list-group-item list-group-item-action">BSP toolkit</li>
-    <li class="list-group-item list-group-item-action">Field of view</li>
-    <li class="list-group-item list-group-item-action">Heightmap toolkit</li>
-    <li class="list-group-item list-group-item-action">Name generator</li>
-    <li class="list-group-item list-group-item-action">Pathfinding</li>
-</ListGroup>>
+    <ActionableItem label="BSP toolkit"/>
+    <ActionableItem label="Field of view"/>
+    <ActionableItem label="Heightmap toolkit"/>
+    <ActionableItem label="Name generator"/>
+    <ActionableItem label="Pathfinding"/>
+</ListGroup>
