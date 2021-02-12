@@ -112,7 +112,10 @@
     <div class="col-12">
         <h3>Heightmap toolkit</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a heightmap"/>
+            <ActionableItem label="Basic operations"/>
+            <ActionableItem label="Modifying the heightmap"/>
+            <ActionableItem label="Reading data from the heightmap"/>
         </ListGroup>
     </div>
 
