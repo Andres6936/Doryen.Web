@@ -9,7 +9,8 @@
 </script>
 
 {#if badge === 0}
-    <li class="list-group-item list-group-item-action">{label}</li>
+    <li class="list-group-item list-group-item-action" data-bs-toggle="collapse" data-bs-target="#{target}"
+        aria-expanded="false" aria-controls="Collapsable element">{label}</li>
 {:else }
     <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
         data-bs-toggle="collapse" data-bs-target="#{target}" aria-expanded="false" aria-controls="Collapsable element">
