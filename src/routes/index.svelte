@@ -11,7 +11,7 @@
 <ListGroup>
     <ItemTitle title="Core"/>
     <ActionableItem label="Colors"/>
-    <ActionableItem label="Console" badge="5"/>
+    <ActionableItem label="Console" badge="5" target="dr-sublist-console"/>
 
     <ListGroupCollapsable id="dr-sublist-console">
         <ActionableItem label="Initializing the console"/>
