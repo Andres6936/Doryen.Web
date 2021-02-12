@@ -103,7 +103,9 @@
     <div class="col-12">
         <h3>Field of view</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Building the map"/>
+            <ActionableItem label="Computing the field of view"/>
+            <ActionableItem label="Reading fov information"/>
         </ListGroup>
     </div>
 
