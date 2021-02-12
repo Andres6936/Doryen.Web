@@ -21,7 +21,7 @@
         <ActionableItem label="Using offscreen consoles"/>
     </ListGroupCollapsable>
 
-    <ActionableItem label="System layer" badge="5"/>
+    <ActionableItem label="System layer" badge="5" target="dr-sublist-system-layer"/>
 
     <ListGroupCollapsable id="dr-sublist-system-layer">
         <ActionableItem label="High precision time functions"/>
