@@ -5,8 +5,12 @@
 <ul class="list-group">
     <li class="list-group-item list-group-item-dark">Core</li>
     <li class="list-group-item list-group-item-action">Colors</li>
-    <li class="list-group-item list-group-item-action">Console</li>
-    <li class="list-group-item list-group-item-action">System layer</li>
+    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Console
+        <span class="badge bg-primary rounded-pill">5</span>
+    </li>
+    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">System layer
+        <span class="badge bg-primary rounded-pill">6</span>
+    </li>
     <li class="list-group-item list-group-item-dark">Base toolkit</li>
     <li class="list-group-item list-group-item-action">Line drawing toolkit</li>
     <li class="list-group-item list-group-item-action">Image toolkit</li>
