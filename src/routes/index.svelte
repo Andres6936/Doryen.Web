@@ -73,14 +73,19 @@
     <div class="col-12">
         <h3>File parser</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="The doryen config file format"/>
+            <ActionableItem label="Defining the file syntax"/>
+            <ActionableItem label="Running the parser"/>
+            <ActionableItem label="Standard types"/>
         </ListGroup>
     </div>
 
     <div class="col-12">
         <h3>Compression toolkit</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a compression buffer"/>
+            <ActionableItem label="Using the buffer in output mode"/>
+            <ActionableItem label="Using the buffer in input mode"/>
         </ListGroup>
     </div>
 
