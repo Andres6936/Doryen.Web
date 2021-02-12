@@ -43,21 +43,30 @@
     <div class="col-12">
         <h3>All purpose container</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a list"/>
+            <ActionableItem label="Basic array operations"/>
+            <ActionableItem label="Basic list operations"/>
+            <ActionableItem label="Basic stack operations"/>
+            <ActionableItem label="Iterators"/>
         </ListGroup>
     </div>
 
     <div class="col-12">
         <h3>Pseudorandom number generator</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a generator"/>
+            <ActionableItem label="Using a generator"/>
         </ListGroup>
     </div>
 
     <div class="col-12">
         <h3>Noise generator</h3>
         <ListGroup>
-            <ActionableItem label="Creating a image"/>
+            <ActionableItem label="Creating a noise generator"/>
+            <ActionableItem label="Choosing a noise type"/>
+            <ActionableItem label="Getting flat noise"/>
+            <ActionableItem label="Getting fbm noise"/>
+            <ActionableItem label="Getting turbulence"/>
         </ListGroup>
     </div>
 
