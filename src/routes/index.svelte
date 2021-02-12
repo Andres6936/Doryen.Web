@@ -1,50 +1,22 @@
-<script>
-    import successkid from 'images/successkid.jpg';
-</script>
-
-<style>
-    h1, figure, p {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    h1 {
-        font-size: 2.8em;
-        text-transform: uppercase;
-        font-weight: 700;
-        margin: 0 0 0.5em 0;
-    }
-
-    figure {
-        margin: 0 0 1em 0;
-    }
-
-    img {
-        width: 100%;
-        max-width: 400px;
-        margin: 0 0 1em 0;
-    }
-
-    p {
-        margin: 1em auto;
-    }
-
-    @media (min-width: 480px) {
-        h1 {
-            font-size: 4em;
-        }
-    }
-</style>
-
 <svelte:head>
     <title>Doryen Documentation</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
-<figure>
-    <img alt="Success Kid" src="{successkid}">
-    <figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<ul class="list-group">
+    <li class="list-group-item">Colors</li>
+    <li class="list-group-item">Console</li>
+    <li class="list-group-item">System layer</li>
+    <li class="list-group-item">Line drawing toolkit</li>
+    <li class="list-group-item">Image toolkit</li>
+    <li class="list-group-item">All purpose container</li>
+    <li class="list-group-item">Pseudorandom number generator</li>
+    <li class="list-group-item">Mouse support</li>
+    <li class="list-group-item">Noise generator</li>
+    <li class="list-group-item">File parser</li>
+    <li class="list-group-item">Compression toolkit</li>
+    <li class="list-group-item">BSP toolkit</li>
+    <li class="list-group-item">Field of view</li>
+    <li class="list-group-item">Heightmap toolkit</li>
+    <li class="list-group-item">Name generator</li>
+    <li class="list-group-item">Pathfinding</li>
+</ul>
