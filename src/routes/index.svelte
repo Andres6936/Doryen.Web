@@ -15,18 +15,18 @@
 
     <ItemTitle title="Base toolkit"/>
     <ActionableItem label="Line drawing toolkit"/>
-    <ActionableItem label="Image toolkit"/>
-    <ActionableItem label="All purpose container"/>
-    <ActionableItem label="Pseudorandom number generator"/>
+    <ActionableItem label="Image toolkit" badge="5"/>
+    <ActionableItem label="All purpose container" badge="5"/>
+    <ActionableItem label="Pseudorandom number generator" badge="3"/>
     <ActionableItem label="Mouse support"/>
-    <ActionableItem label="Noise generator"/>
-    <ActionableItem label="File parser"/>
-    <ActionableItem label="Compression toolkit"/>
+    <ActionableItem label="Noise generator" badge="5"/>
+    <ActionableItem label="File parser" badge="4"/>
+    <ActionableItem label="Compression toolkit" badge="3"/>
 
     <ItemTitle title="Roguelike toolkit"/>
-    <ActionableItem label="BSP toolkit"/>
-    <ActionableItem label="Field of view"/>
-    <ActionableItem label="Heightmap toolkit"/>
-    <ActionableItem label="Name generator"/>
-    <ActionableItem label="Pathfinding"/>
+    <ActionableItem label="BSP toolkit" badge="5"/>
+    <ActionableItem label="Field of view" badge="3"/>
+    <ActionableItem label="Heightmap toolkit" badge="4"/>
+    <ActionableItem label="Name generator" badge="3"/>
+    <ActionableItem label="Pathfinding" badge="3"/>
 </ListGroup>
