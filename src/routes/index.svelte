@@ -11,7 +11,15 @@
     <ItemTitle title="Core"/>
     <ActionableItem label="Colors"/>
     <ActionableItem label="Console" badge="5"/>
-    <ActionableItem label="System layer" badge="6"/>
+    <ActionableItem label="System layer" badge="5"/>
+
+    <ListGroup>
+        <ActionableItem label="High precision time functions"/>
+        <ActionableItem label="Easy screenshots"/>
+        <ActionableItem label="Filesystem utilities"/>
+        <ActionableItem label="Miscellaneous utilities"/>
+        <ActionableItem label="Clipboard integration"/>
+    </ListGroup>
 
     <ItemTitle title="Base toolkit"/>
     <ActionableItem label="Line drawing toolkit"/>
