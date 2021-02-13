@@ -1,6 +1,7 @@
 <script>
     import ListGroup from "../components/lists/ListGroup.svelte";
     import ActionableItem from "../components/lists/ActionableItem.svelte";
+    import TitleList from "../components/text/TitleList.svelte";
 </script>
 <svelte:head>
     <title>Doryen Documentation</title>
@@ -8,7 +9,7 @@
 
 <div class="row">
     <div class="col-12">
-        <h5 class="fw-bold border-bottom pb-3">Console</h5>
+        <TitleList>Console</TitleList>
         <ListGroup>
             <ActionableItem label="Initializing the console"/>
             <ActionableItem label="Drawing in the root console"/>
@@ -19,7 +20,7 @@
     </div>
 
     <div class="col-12">
-        <h3>System Console</h3>
+        <TitleList>System Console</TitleList>
         <ListGroup>
             <ActionableItem label="High precision time functions"/>
             <ActionableItem label="Easy screenshots"/>
@@ -30,7 +31,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Image toolkit</h3>
+        <TitleList>Image toolkit</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a image"/>
             <ActionableItem label="Reading data from Image"/>
@@ -41,7 +42,7 @@
     </div>
 
     <div class="col-12">
-        <h3>All purpose container</h3>
+        <TitleList>All purpose container</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a list"/>
             <ActionableItem label="Basic array operations"/>
@@ -52,7 +53,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Pseudorandom number generator</h3>
+        <TitleList>Pseudorandom number generator</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a generator"/>
             <ActionableItem label="Using a generator"/>
@@ -60,7 +61,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Noise generator</h3>
+        <TitleList>Noise generator</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a noise generator"/>
             <ActionableItem label="Choosing a noise type"/>
@@ -71,7 +72,7 @@
     </div>
 
     <div class="col-12">
-        <h3>File parser</h3>
+        <TitleList>File parser</TitleList>
         <ListGroup>
             <ActionableItem label="The doryen config file format"/>
             <ActionableItem label="Defining the file syntax"/>
@@ -81,7 +82,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Compression toolkit</h3>
+        <TitleList>Compression toolkit</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a compression buffer"/>
             <ActionableItem label="Using the buffer in output mode"/>
@@ -90,7 +91,7 @@
     </div>
 
     <div class="col-12">
-        <h3>BSP toolkit</h3>
+        <TitleList>BSP toolkit</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a BSP tree"/>
             <ActionableItem label="Splitting the tree"/>
@@ -101,7 +102,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Field of view</h3>
+        <TitleList>Field of view</TitleList>
         <ListGroup>
             <ActionableItem label="Building the map"/>
             <ActionableItem label="Computing the field of view"/>
@@ -110,7 +111,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Heightmap toolkit</h3>
+        <TitleList>Heightmap toolkit</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a heightmap"/>
             <ActionableItem label="Basic operations"/>
@@ -120,7 +121,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Name generator</h3>
+        <TitleList>Name generator</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a generator"/>
             <ActionableItem label="Generating a name"/>
@@ -129,7 +130,7 @@
     </div>
 
     <div class="col-12">
-        <h3>Pathfinding</h3>
+        <TitleList>Pathfinding</TitleList>
         <ListGroup>
             <ActionableItem label="Creating a path"/>
             <ActionableItem label="Computing the path"/>
