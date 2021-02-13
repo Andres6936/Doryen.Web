@@ -7,7 +7,7 @@
     <title>Doryen Documentation</title>
 </svelte:head>
 
-<div class="row">
+<div class="row row-cols-md-2 row-cols-lg-3">
     <div class="col-12">
         <TitleList>Console</TitleList>
         <ListGroup>
