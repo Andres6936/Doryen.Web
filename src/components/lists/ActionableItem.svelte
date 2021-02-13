@@ -4,7 +4,7 @@
     export let label;
 </script>
 
-<li class="list-group-item list-group-item-action small">
+<li class="list-group-item list-group-item-action small border-0">
     <IconBook extraClass="me-3"/>
     {label}
 </li>
